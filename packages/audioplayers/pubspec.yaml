@@ -36,11 +36,7 @@ dependencies:
       url: https://github.com/bluefireteam/audioplayers.git
       ref: 6f24c8f57e4549edbf7d68a021d1d94371c23f3f
       path: packages/audioplayers_linux/
-  audioplayers_platform_interface:
-    git:
-      url: https://github.com/bluefireteam/audioplayers.git
-      ref: 6f24c8f57e4549edbf7d68a021d1d94371c23f3f
-      path: packages/audioplayers_platform_interface/
+  audioplayers_platform_interface: ^4.0.0
   audioplayers_web:
     git:
       url: https://github.com/bluefireteam/audioplayers.git
