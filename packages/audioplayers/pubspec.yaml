@@ -21,7 +21,11 @@ flutter:
         default_package: audioplayers_windows
 
 dependencies:
-  audioplayers_android: ^2.0.0
+  audioplayers_android:
+    git:
+      url: https://github.com/bluefireteam/audioplayers.git
+      ref: 6f24c8f57e4549edbf7d68a021d1d94371c23f3f
+      path: packages/audioplayers_android/
   audioplayers_darwin: ^3.0.1
   audioplayers_linux: ^1.0.4
   audioplayers_platform_interface: ^4.0.0
